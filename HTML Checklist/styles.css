@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');     /* Font: BSD */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');                /* Font: Montserrat */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-image: url("../assets/html_main_background.png");
+    background-repeat: repeat;
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+}
+.checklist {
+    display: flex;
+    flex-direction: column;
+    background: rgb(235, 235, 235);
+    max-width: 700px;
+    margin: 50px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.imageDiv {
+    align-self: center;
+}
+.image {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.title01 {
+    color: rgb(76, 96, 114);
+    text-shadow: 1px 1px 3px rgb(76, 96, 114);
+    padding: 20px 0px;
+    font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.allSections {
+    display: flex;
+    flex-direction: column;
+}
+.title02 {
+    color: rgb(87, 86, 86);
+    text-shadow: 1px 1px 2px rgb(119, 119, 119);
+    margin: 25px 15px 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+}
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 15px;
+    gap: 10px;
+    color: rgb(76, 96, 114);
+    text-shadow: 1px 1px 3px rgb(76, 96, 114, 0.5);
+    font-weight: 600;
+    width: fit-content;
+    height: 30px;
+    
+}
+.container input {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(76, 96, 114);
+    border-radius: 100%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    vertical-align: middle;
+    box-shadow: 2px 2px 5px rgb(76, 96, 114, 0.7);
+
+    &:hover {
+        background-color: rgb(76, 96, 114);
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+    &:checked {
+        background-color: #1db417;
+        box-shadow: 2px 2px 5px #1db417;
+        border: 2px solid #1db417;
+    }
+}
+.congratsDiv {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 400px;
+    margin: 40px 0px 10px;
+    padding: 15px 20px;
+    background-color: #1db417;
+    box-shadow: 3px 3px 5px rgb(76, 96, 114, 0.7);
+    border-radius: 16px;
+}
+.congratulations {
+    width: 380px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+#clearButton {
+    color: rgb(219, 219, 219);
+    background-color: rgb(228, 82, 82);
+    align-self: center;
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 2px solid rgb(228, 82, 82);
+    box-shadow: 3px 3px 5px rgb(199, 71, 71);
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        background-color: rgb(165, 59, 59);
+        border: 2px solid rgb(165, 59, 59);
+        box-shadow: 3px 3px 5px rgb(165, 59, 59);
+    }
+}
