@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    background-image: url("../assets/html_main_background.png");
+    background-image: url("./html_main_background.png");
     background-repeat: repeat;
     background-size: 50%;
     display: flex;
