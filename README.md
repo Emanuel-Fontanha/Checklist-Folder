@@ -1,6 +1,6 @@
 # Checklist-Folder
 
-A colection of guide-like checklists for studying a bunch of tecnologies. The repository has only an HTML checklist, but I intend to keep creating new ones, such as guides for CSS, JavaScript, React, Flutter and a lot more.
+A colection of guide-like checklists to study    a bunch of tecnologies. The repository has only an HTML checklist, but I intend to keep creating new ones, such as guides for CSS, JavaScript, React, Flutter and a lot more.
 
 ## Available checklists
 
